@@ -1,0 +1,37 @@
+.filter-fieldset {
+  border: white;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.filter-fieldset button,
+.filter-fieldset select,
+.filter-fieldset input {
+  padding: 0.75rem 1rem;
+  border: white;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+.filter-fieldset button {
+  cursor: pointer;
+}
+
+.filter-fieldset input {
+  min-width: 220px;
+  color: white;
+}
+
+.filter-fieldset select {
+  min-width: 160px;
+}
+
+.filter-fieldset option {
+  background: #1b2a33;
+  color: white;
+}
